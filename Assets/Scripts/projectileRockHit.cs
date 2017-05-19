@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class projectileRockHit : MonoBehaviour {
-
-    projectileController projectile_controller; //reference to projectileController.cs
+    //reference to projectileController.cs
+    public projectileController projectile_controller; //Ensure projectileController.cs is attached in inspector @ projectile_controller
     public float rockDamage;
     public GameObject shatterEffect;
 	// Use this for initialization
