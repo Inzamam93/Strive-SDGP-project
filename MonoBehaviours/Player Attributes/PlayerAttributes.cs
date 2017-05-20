@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,7 +20,9 @@ public class PlayerAttributes : MonoBehaviour
 
     public float temp, minTolerableTemp, maxTolerableTemp;
 
-    public bool fatigued = false, starving = false, parched = false, freezing = false; 
+    public bool fatigued = false, starving = false, parched = false, freezing = false;
+
+    public GameObject deathFX;
 
     Vector2 previousPosition;
 
@@ -84,9 +86,13 @@ public class PlayerAttributes : MonoBehaviour
 
 
     //INCREMENTS ARE MEANT TO BE USED BY OTHER SCRIPTS (PICKUPS, DAMAGE etc)
-    public void IncrementHealth(float increment)
+    public void AddDamage(float increment)
     {
         health = Mathf.Clamp(health + increment, 0, maxHealth);
+        if (health <= 0)
+        {
+            playerDie();
+        }
     }
     public void IncrementStamina(float increment)
     {
@@ -99,5 +105,12 @@ public class PlayerAttributes : MonoBehaviour
     public void IncrementThirst(float increment)
     {
         thirst = Mathf.Clamp(hunger + increment, 0, maxThirst);
+    }
+
+    public void playerDie()
+    {
+        //Instantiate( object to be instantiated, where/location to instantiate, rotation of object) 
+        Instantiate(deathFX, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 }
