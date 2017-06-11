@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A42085E4-D3B1-BEA4-A9A0-531631963941}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\EnemyDamage.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Asset Scripts\StreetLight.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Controller2D.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\DistractEnemy.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EditModeTest.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\Attack.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\EnemyState.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\Grid.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\Node.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\Patrol.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\EnemyAI\Weapon.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Environment &amp; Day Night\EffectTemperature.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Environment &amp; Day Night\WeatherTimeManager.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Game Manager\MenuToggles.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\HUD\Bars\PointBars.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Health Statistics\UserActivity.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Health Stats\HealthDatabase.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\ButtonActivator.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\InventorySlot.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\SwitchItems.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\UI\ItemData.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\UI\ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\UI\ItemFunctionality.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\UseItem.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\LayerManager.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\LayerManager1.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\LevelUp\LevelUp.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Pathfinding\Jump.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Pathfinding\Waypoint.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Pathfinding\WaypointPathfinding.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Player Attributes\PlayerAttributes.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Player\PlayerState.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\PlayerHide.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\ShowCollider.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\cameraFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\destroyProjectile.cs" />
+     <Compile Include="Assets\Scripts\enemyMovementController.cs" />
+     <Compile Include="Assets\Scripts\healthPickUp.cs" />
+     <Compile Include="Assets\Scripts\levelManager.cs" />
+     <Compile Include="Assets\Scripts\menuManager.cs" />
+     <Compile Include="Assets\Scripts\playerHealth.cs" />
+     <Compile Include="Assets\Scripts\projectileController.cs" />
+     <Compile Include="Assets\Scripts\projectileRockHit.cs" />
+     <Compile Include="Assets\Scripts\projectileScript.cs" />
+     <Compile Include="Assets\Scripts\respawn.cs" />
+     <Compile Include="Assets\achievementsList.cs" />
+     <Compile Include="Assets\readJSON.cs" />
+     <None Include="Assets\Custom Character_Vol3\Read Me(En,Jp).txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>C:/Users/Vidura/Desktop/Strive/Assets/LitJson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

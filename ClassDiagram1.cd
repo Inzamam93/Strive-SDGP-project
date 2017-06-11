@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Player">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAQgEAhEAiIAAAAAAQRAIAAAARAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="destroyProjectile">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\destroyProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cameraFollowPlayer">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAAABAAAAABAAYAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\cameraFollowPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="projectileController">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAAACAAAAAAAgAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\projectileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="projectileRockHit">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAIAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\projectileRockHit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="projectileScript">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\projectileScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

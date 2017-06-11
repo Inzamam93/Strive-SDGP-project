@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strive", "Strive.csproj", "{F81892DB-E7ED-C5D1-51DA-22AF6C9BB36C}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C9FFD654-4690-92C2-189F-CE269F5A348B}") = "Strive", "Assembly-CSharp.csproj", "{A42085E4-D3B1-BEA4-A9A0-531631963941}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F81892DB-E7ED-C5D1-51DA-22AF6C9BB36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F81892DB-E7ED-C5D1-51DA-22AF6C9BB36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F81892DB-E7ED-C5D1-51DA-22AF6C9BB36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F81892DB-E7ED-C5D1-51DA-22AF6C9BB36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42085E4-D3B1-BEA4-A9A0-531631963941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42085E4-D3B1-BEA4-A9A0-531631963941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42085E4-D3B1-BEA4-A9A0-531631963941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42085E4-D3B1-BEA4-A9A0-531631963941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
